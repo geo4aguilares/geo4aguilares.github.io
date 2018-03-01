@@ -19,8 +19,9 @@ var map = L.map( 'map', {
                 featureGroup: drawnItems
             }
         });*/
-var urlCity ='https://gist.githubusercontent.com/geo4aguilares/5b86c107174a6d8b4414947ff0ae8f1d/raw/e78257e78317f981f2842c40e402808b3bac591d/ingenios.geojson';
-//var urlCity = 'https://raw.githubusercontent.com/transporte17/repo01/master/ingenios.geojson';
+//var urlCity ='https://gist.githubusercontent.com/geo4aguilares/5b86c107174a6d8b4414947ff0ae8f1d/raw/e78257e78317f981f2842c40e402808b3bac591d/ingenios.geojson';
+
+var urlCity = 'https://raw.githubusercontent.com/geo4aguilares/Repositorio/master/ingenios.geojson';
 //var urlCity = 'https://gitlab.com/javiarch/Repositorios/raw/master/aguilares.geojson';
 //var urlCity = 'https://glcdn.githack.com/javiarch/Repositorios/raw/master/aguilares.geojson';
 
