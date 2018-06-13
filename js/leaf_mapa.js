@@ -123,7 +123,7 @@ L.tileLayer( 'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo( map );
 
 //var wmsTopoIcgc = L.tileLayer.wms('http://geoserveis.icgc.cat/icc_mapesbase/wms/service?', {
-var wmsTopoIcgc = L.tileLayer.wms('http://ide.transporte.gob.ar/geoserver/observ/wms?', {
+var wmsTopoIcgc = L.tileLayer.wms('https://ide.transporte.gob.ar/geoserver/observ/wms?', {
   //layers: 'mtc5m',
   layers: '_3.2.3.1.subte_red_usig_ont_a_view',
   crs: L.CRS.EPSG4326,
